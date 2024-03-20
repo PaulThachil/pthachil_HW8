@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif; /* Use Arial font for the body */
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+        }
+        .title-bar {
+            background-color: #333; /* Dark background color for title bar */
+            color: #fff; /* White text color */
+            text-align: center; /* Center the text */
+            padding: 10px; /* Add some padding */
+        }
+        .sidebar {
+            position: fixed;
+            top: 50%; /* Position the top of the sidebar at the center of the viewport */
+            right: calc(3in + 20px); /* Position the sidebar 3 inches away from the right edge of the screen */
+            width: 200px; /* Adjust width as needed */
+            background-color: #f0f0f0; /* Light gray background */
+            padding: 20px; /* Add some padding */
+            transform: translateY(-50%); /* Center the sidebar vertically */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+        }
+        .sidebar h2 {
+            font-family: "Times New Roman", Times, serif; /* Use Times New Roman font for the heading */
+            text-align: center; /* Center the text */
+            margin: 0; /* Remove default margin */
+        }
+        .sidebar a {
+            display: block; /* Display links as blocks */
+            padding: 10px; /* Add some padding */
+            text-decoration: none; /* Remove underline */
+            color: #333; /* Dark gray color for links */
+        }
+        .sidebar a:hover {
+            background-color: #ddd; /* Light gray background on hover */
+        }
+        .content {
+            margin-right: calc(220px + 3in + 20px); /* Adjust margin to accommodate the sidebar and title bar */
+            padding: 20px; /* Add some padding */
+        }
+    </style>
+</head>
+<body>
+    <div class="title-bar">
+        <h1>PAUL THACHIL</h1>
+    </div>
+
+    <div class="sidebar">
+        <h2>Favorite Websites</h2>
+        <a href="https://www.youtube.com/">YouTube</a>
+        <a href="https://www.netflix.com/browse">Netflix</a>
+        <a href="https://login.proxy.lib.uiowa.edu/login?url=https://iowa.kanopy.com/">Kanopy</a>
+    </div>
+    
+    <div class="content">
+        <h1>Welcome to My Website!</h1>
+        <p>This is the homepage.</p>
+        
+        <!-- Link to navigate to page2.html -->
+        <a href="page2.html">Go to Page 2</a>
+    </div>
+</body>
+</html>
